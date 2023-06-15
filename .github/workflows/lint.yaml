@@ -1,0 +1,23 @@
+on:
+  push:
+    branches:
+      - "master"
+  pull_request:
+
+name: "Linting"
+
+jobs:
+  lint:
+    name: "Lints"
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: "Checkout source code"
+        uses: "actions/checkout@v3"
+
+      - name: "Install prettier 2.8.8"
+        run: |
+          yarn global add prettier@2.8.8
+
+      - name: "Check prettier format"
+        run: |
+          prettier --ignore-path .gitignore --check .
