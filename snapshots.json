@@ -1,0 +1,46 @@
+[
+  {
+    "node": "pathfinder",
+    "networks": [
+      {
+        "network": "mainnet",
+        "snapshots": [
+          {
+            "block": 213169,
+            "version": "0.8.1"
+          },
+          {
+            "block": 141083,
+            "version": "0.7.0"
+          }
+        ]
+      },
+      {
+        "network": "goerli-1",
+        "snapshots": [
+          {
+            "block": 860674,
+            "version": "0.8.1"
+          },
+          {
+            "block": 841817,
+            "version": "0.7.0"
+          }
+        ]
+      },
+      {
+        "network": "goerli-2",
+        "snapshots": [
+          {
+            "block": 141801,
+            "version": "0.8.1"
+          },
+          {
+            "block": 136651,
+            "version": "0.7.0"
+          }
+        ]
+      }
+    ]
+  }
+]
