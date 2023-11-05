@@ -23,7 +23,7 @@ endpoint = https://pathfinder-backup.zklend.com/
 Then, download a snapshot to the current directory with:
 
 ```console
-rclone copy -P zklend-pathfinder-backup:mainnet/mainnet-v0.8.1-213169.tar.xz .
+rclone copy -P zklend-pathfinder-backup:mainnet/mainnet-v0.9.4-376563.tar.xz .
 ```
 
 ### `curl`
@@ -31,7 +31,7 @@ rclone copy -P zklend-pathfinder-backup:mainnet/mainnet-v0.8.1-213169.tar.xz .
 Downloading with `curl` is not recommended but possible:
 
 ```console
-curl -OL "https://pathfinder-backup.zklend.com/mainnet/mainnet-v0.8.1-213169.tar.xz"
+curl -OL "https://pathfinder-backup.zklend.com/mainnet/mainnet-v0.9.4-376563.tar.xz"
 ```
 
 ## Using the snapshots
@@ -39,7 +39,7 @@ curl -OL "https://pathfinder-backup.zklend.com/mainnet/mainnet-v0.8.1-213169.tar
 Simply decompress and extract the file downloaded with `tar`:
 
 ```console
-tar Jxvf ./mainnet-v0.8.1-213169.tar.xz
+tar Jxvf ./mainnet-v0.9.4-376563.tar.xz
 ```
 
 ## `pathfinder`
@@ -48,6 +48,7 @@ tar Jxvf ./mainnet-v0.8.1-213169.tar.xz
 
 | Network   | Version  | Block    | Download Link                                                             |
 | --------- | -------- | -------- | ------------------------------------------------------------------------- |
+| `mainnet` | `v0.9.4` | `376563` | https://pathfinder-backup.zklend.com/mainnet/mainnet-v0.9.4-376563.tar.xz |
 | `mainnet` | `v0.8.1` | `213169` | https://pathfinder-backup.zklend.com/mainnet/mainnet-v0.8.1-213169.tar.xz |
 | `mainnet` | `v0.7.0` | `141083` | https://pathfinder-backup.zklend.com/mainnet/mainnet-v0.7.0-141083.tar.xz |
 
@@ -55,6 +56,7 @@ tar Jxvf ./mainnet-v0.8.1-213169.tar.xz
 
 | Network    | Version  | Block    | Download Link                                                               |
 | ---------- | -------- | -------- | --------------------------------------------------------------------------- |
+| `goerli-1` | `v0.9.4` | `897425` | https://pathfinder-backup.zklend.com/goerli-1/goerli-1-v0.9.4-897425.tar.xz |
 | `goerli-1` | `v0.8.1` | `860674` | https://pathfinder-backup.zklend.com/goerli-1/goerli-1-v0.8.1-860674.tar.xz |
 | `goerli-1` | `v0.7.0` | `841817` | https://pathfinder-backup.zklend.com/goerli-1/goerli-1-v0.7.0-841817.tar.xz |
 
@@ -62,5 +64,6 @@ tar Jxvf ./mainnet-v0.8.1-213169.tar.xz
 
 | Network    | Version  | Block    | Download Link                                                               |
 | ---------- | -------- | -------- | --------------------------------------------------------------------------- |
+| `goerli-2` | `v0.9.4` | `149760` | https://pathfinder-backup.zklend.com/goerli-2/goerli-2-v0.9.4-149760.tar.xz |
 | `goerli-2` | `v0.8.1` | `141801` | https://pathfinder-backup.zklend.com/goerli-2/goerli-2-v0.8.1-141801.tar.xz |
 | `goerli-2` | `v0.7.0` | `136651` | https://pathfinder-backup.zklend.com/goerli-2/goerli-2-v0.7.0-136651.tar.xz |

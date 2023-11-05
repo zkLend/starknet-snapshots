@@ -6,6 +6,10 @@
         "network": "mainnet",
         "snapshots": [
           {
+            "block": 376563,
+            "version": "0.9.4"
+          },
+          {
             "block": 213169,
             "version": "0.8.1"
           },
@@ -19,6 +23,10 @@
         "network": "goerli-1",
         "snapshots": [
           {
+            "block": 897425,
+            "version": "0.9.4"
+          },
+          {
             "block": 860674,
             "version": "0.8.1"
           },
@@ -31,6 +39,10 @@
       {
         "network": "goerli-2",
         "snapshots": [
+          {
+            "block": 149760,
+            "version": "0.9.4"
+          },
           {
             "block": 141801,
             "version": "0.8.1"
